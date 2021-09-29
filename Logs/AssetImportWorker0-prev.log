@@ -1,0 +1,643 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.657; Version 1903; 64bit' Language: 'en' Physical Memory: 16177 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mgermain/Documents/GitHub/BumperFarms
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62095
+Successfully changed project path to: C:/Users/mgermain/Documents/GitHub/BumperFarms
+C:/Users/mgermain/Documents/GitHub/BumperFarms
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mgermain/Documents/GitHub/BumperFarms/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001674 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1243 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1736.
+Total: 1.436900 ms (FindLiveObjects: 0.121300 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.218200 ms  DeleteObjects: 0.055100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(35f5db0a51710674bbffa8045d53d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(35f5db0a51710674bbffa8045d53d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2962d185a9c378da75090c95e0b9ed50') in 0.006789 seconds
+  Import took 0.010065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75076e30b8b84ebf5e20060e44b32f1e') in 0.014679 seconds
+  Import took 0.016907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.841639 seconds.
+  path: Assets/SimplePoly World/Demo Scenes
+  artifactKey: Guid(750f4fa0d2ede41468ffa1da69546f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Demo Scenes using Guid(750f4fa0d2ede41468ffa1da69546f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9473d630601153d578102255041a6f') in 0.001554 seconds
+  Import took 0.003305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938932 seconds.
+  path: Assets/SimplePoly World/Demo Scenes/SPW_Demo Scene_Farm.unity
+  artifactKey: Guid(80f49d6784942a34a8f72e4448a21321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Demo Scenes/SPW_Demo Scene_Farm.unity using Guid(80f49d6784942a34a8f72e4448a21321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ba1f60a420714829d32a5d7540dfdc') in 0.002094 seconds
+  Import took 0.004072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.518480 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm
+  artifactKey: Guid(e8b255bc5bf570a4c98f2b58da350ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm using Guid(e8b255bc5bf570a4c98f2b58da350ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c39342c2fb3db22a46be887a094ef') in 0.001666 seconds
+  Import took 0.003513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.733227 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings
+  artifactKey: Guid(31e7165261ec5584dac0ff6ebf4e6920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings using Guid(31e7165261ec5584dac0ff6ebf4e6920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6be77431a365166fbf96de41263b8a7') in 0.001872 seconds
+  Import took 0.004022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102645 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color01.prefab
+  artifactKey: Guid(a9eb4e9be8c7ffb45b70d73452aff5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color01.prefab using Guid(a9eb4e9be8c7ffb45b70d73452aff5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38bfed74d73a78b27088ee73da5c014') in 0.337228 seconds
+  Import took 0.339710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color02.prefab
+  artifactKey: Guid(fc18d24a2c7c84c4cade0d37d92119e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color02.prefab using Guid(fc18d24a2c7c84c4cade0d37d92119e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b64ee42a663218f591fa38ca9bed366') in 0.007777 seconds
+  Import took 0.009619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color03.prefab
+  artifactKey: Guid(80d19e83637bf1f42b155c3889ac3b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color03.prefab using Guid(80d19e83637bf1f42b155c3889ac3b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5f66227d835e0984241b16ff514735') in 0.006692 seconds
+  Import took 0.008542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color03.prefab
+  artifactKey: Guid(9184300b8fec8114a828e2d00590d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color03.prefab using Guid(9184300b8fec8114a828e2d00590d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb80a966301ffe06bc9ead9860032228') in 0.007263 seconds
+  Import took 0.009275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color03.prefab
+  artifactKey: Guid(d28be948820b3f44d8affc4488f3c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color03.prefab using Guid(d28be948820b3f44d8affc4488f3c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c3226a021eb7268542e55dbdcbb9f3') in 0.006808 seconds
+  Import took 0.008684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color03.prefab
+  artifactKey: Guid(d06dcbb553604564b95794fd57eb3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color03.prefab using Guid(d06dcbb553604564b95794fd57eb3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b390c4f93208b9b0e393cc41b8f3eff9') in 0.006727 seconds
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color02.prefab
+  artifactKey: Guid(fce3cfec6936b6445946d25755b39c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color02.prefab using Guid(fce3cfec6936b6445946d25755b39c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b740936fedff66edb8a40d8ea088f476') in 0.007270 seconds
+  Import took 0.009265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color01.prefab
+  artifactKey: Guid(2c1f43d349fca0743904ebd2e8655658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_04_Color01.prefab using Guid(2c1f43d349fca0743904ebd2e8655658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723e43b2c1702f3dd8998345d1c59190') in 0.006830 seconds
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color01.prefab
+  artifactKey: Guid(eefc6fd9859f26f4697b124f43ce43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_03_Color01.prefab using Guid(eefc6fd9859f26f4697b124f43ce43fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3749918cd455f0b11debdc048b8c8ba') in 0.007910 seconds
+  Import took 0.010012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color02.prefab
+  artifactKey: Guid(e6b772e3b17a4974badf156f25556f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_01_Color02.prefab using Guid(e6b772e3b17a4974badf156f25556f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6f3d8c4a62fa4a6256db47e87539c0') in 0.006821 seconds
+  Import took 0.008754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color01.prefab
+  artifactKey: Guid(fbcd959f2eeee894da59982fbe46ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color01.prefab using Guid(fbcd959f2eeee894da59982fbe46ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe26377dd99ba921db4a7e3a0a0f835') in 0.006886 seconds
+  Import took 0.008924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color02.prefab
+  artifactKey: Guid(b142f33250a054c419df79a32086601e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Buildings/SPW_Farm_Bldg_02_Color02.prefab using Guid(b142f33250a054c419df79a32086601e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17df07bb2001048120627bf1e2ccbcd') in 0.007295 seconds
+  Import took 0.009207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.733223 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field
+  artifactKey: Guid(7bed7629ddcf2ca4b853f7b6c690d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field using Guid(7bed7629ddcf2ca4b853f7b6c690d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524d4e1d60c6a7956ae9332a89337383') in 0.001831 seconds
+  Import took 0.004177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060869 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Apple Tree_01.prefab
+  artifactKey: Guid(0d7d58514767b5d44b62adc375374d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Apple Tree_01.prefab using Guid(0d7d58514767b5d44b62adc375374d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9a6dcd2bc10dc7668207a9fc4b4771') in 0.007884 seconds
+  Import took 0.010130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Wheat.prefab
+  artifactKey: Guid(daca6c87becca3e409bb3c6f6240bf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Wheat.prefab using Guid(daca6c87becca3e409bb3c6f6240bf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385fd6317bcf58c9c3b50e752e350ff0') in 0.009638 seconds
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Orange Tree_01.prefab
+  artifactKey: Guid(fb0d947cca933504babcd365b4e0d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Orange Tree_01.prefab using Guid(fb0d947cca933504babcd365b4e0d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a1ebee3dca00ef65fa3e6d5d73da19') in 0.006525 seconds
+  Import took 0.008410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Flower.prefab
+  artifactKey: Guid(9fc91402c1b2e7a449b26ef1bb70a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Flower.prefab using Guid(9fc91402c1b2e7a449b26ef1bb70a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503e562b365fed167b9bcaba112f94b1') in 0.006996 seconds
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_02.prefab
+  artifactKey: Guid(d03cff494c70eee4dbd7f79f40426585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_02.prefab using Guid(d03cff494c70eee4dbd7f79f40426585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860249a7276cec6bcdf34b08cbb1a1dc') in 0.007642 seconds
+  Import took 0.009571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_01.prefab
+  artifactKey: Guid(4522c8a70dc746a469e07fe5a4d8aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_01.prefab using Guid(4522c8a70dc746a469e07fe5a4d8aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b384b7844546bb76a3e53efd5fc064') in 0.007946 seconds
+  Import took 0.009990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Young.prefab
+  artifactKey: Guid(651edfbaf9bebff47be757affc0d0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Young.prefab using Guid(651edfbaf9bebff47be757affc0d0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf7607f5143c01cd682e6fbaef666eb') in 0.007928 seconds
+  Import took 0.009810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Orange Tree_02.prefab
+  artifactKey: Guid(1db0acff0f92ce548b86655e59c0b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Orange Tree_02.prefab using Guid(1db0acff0f92ce548b86655e59c0b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c13e92574ec9b8850e338752669dd') in 0.006947 seconds
+  Import took 0.008857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Apple Tree_02.prefab
+  artifactKey: Guid(2f3084cac640b1f4293ae12cafdd7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Apple Tree_02.prefab using Guid(2f3084cac640b1f4293ae12cafdd7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0851dd6cb325ab25589a50bebd370d1') in 0.007482 seconds
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level02.prefab
+  artifactKey: Guid(3b54a99072a0b904ca0e7226776e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level02.prefab using Guid(3b54a99072a0b904ca0e7226776e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a18ce58ef14f58819209d8cc8ebaac') in 0.007293 seconds
+  Import took 0.009255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Sunflower.prefab
+  artifactKey: Guid(3057bb8af08e0d54c8c4086e85fd887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Sunflower.prefab using Guid(3057bb8af08e0d54c8c4086e85fd887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d12b4e90f5f7c68d19323422125e211') in 0.007046 seconds
+  Import took 0.009048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level01.prefab
+  artifactKey: Guid(50d94f0cb3919754d93687275ed6159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level01.prefab using Guid(50d94f0cb3919754d93687275ed6159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa471762b02b02630b3309dc3bbcf2ec') in 0.007056 seconds
+  Import took 0.009097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_01.prefab
+  artifactKey: Guid(6df861a6059f6f94cafeaef5e98c55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_01.prefab using Guid(6df861a6059f6f94cafeaef5e98c55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3df675984cc15e3e2cfeac400d8e48') in 0.006935 seconds
+  Import took 0.008893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_02.prefab
+  artifactKey: Guid(0d142043aac92654a99f83840e0ba218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_02.prefab using Guid(0d142043aac92654a99f83840e0ba218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a58e69969bcf0f81d0c2c857c6dbe4') in 0.007755 seconds
+  Import took 0.009868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level03.prefab
+  artifactKey: Guid(5253f4132a5bdfe44849a0a149694a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level03.prefab using Guid(5253f4132a5bdfe44849a0a149694a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d69cc48a2469eef037dffc3c825f020') in 0.009128 seconds
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Empty Crop_02.prefab
+  artifactKey: Guid(126263984868f2f4ca05cfb069174502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Empty Crop_02.prefab using Guid(126263984868f2f4ca05cfb069174502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e6f68f1a76c4ef8325c8ee4fca8417') in 0.007411 seconds
+  Import took 0.009480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Watermelon.prefab
+  artifactKey: Guid(c772e72f80e56a54b902dde469dc2916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Watermelon.prefab using Guid(c772e72f80e56a54b902dde469dc2916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a98ad264549a2fd98e5f33cfe3eb73') in 0.006722 seconds
+  Import took 0.008681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Empty Crop_01.prefab
+  artifactKey: Guid(58b22bb4bd3c4584f81de02dc6c2f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Crop Field/SPW_Farm_Crop_Empty Crop_01.prefab using Guid(58b22bb4bd3c4584f81de02dc6c2f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0485b6fd27656f89c95f5426185e236') in 0.006821 seconds
+  Import took 0.008994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966364 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Props
+  artifactKey: Guid(4ea1fd51d299e3749ac0f34a41df9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Props using Guid(4ea1fd51d299e3749ac0f34a41df9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643290bf2997283ec6c294e7d04866c7') in 0.001869 seconds
+  Import took 0.003991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046305 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_01.prefab
+  artifactKey: Guid(4a4ac42711b1c254282cb0b3eb1ce659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_01.prefab using Guid(4a4ac42711b1c254282cb0b3eb1ce659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeea9955bbd60f7263a6bb7aca11931') in 0.006675 seconds
+  Import took 0.008749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Props_Windmill.prefab
+  artifactKey: Guid(ea8d92c763543264d8feddf8b7f24a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Props_Windmill.prefab using Guid(ea8d92c763543264d8feddf8b7f24a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f2b1fa52c81bf400c6454e3c55b703') in 0.007957 seconds
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_03.prefab
+  artifactKey: Guid(c0390a8aab1d9cd41b413d8e07ea5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_03.prefab using Guid(c0390a8aab1d9cd41b413d8e07ea5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e0ae2c73a88d32bc767594cebdb829') in 0.007332 seconds
+  Import took 0.009459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_02.prefab
+  artifactKey: Guid(c688e2478ddff504f9fc87f8919334b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Props/SPW_Farm_Fence_02.prefab using Guid(c688e2478ddff504f9fc87f8919334b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d009becaa09e83290ad6161d2b8c8d6') in 0.006497 seconds
+  Import took 0.008361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.341287 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle
+  artifactKey: Guid(39aef89c7bde9e348850980f07585145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle using Guid(39aef89c7bde9e348850980f07585145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df3789a07eceac79a76fde28a541f09') in 0.001601 seconds
+  Import took 0.003503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082572 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color01.prefab
+  artifactKey: Guid(5830edaa958ea844882aec06536c77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color01.prefab using Guid(5830edaa958ea844882aec06536c77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4e9ce61faee0a3e2d2ae0c1e051fd9') in 0.007539 seconds
+  Import took 0.009712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color02.prefab
+  artifactKey: Guid(5b6ee35af003c8a43b6a8deee3a5fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color02.prefab using Guid(5b6ee35af003c8a43b6a8deee3a5fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd37d2879370364adcfcb1bd003e790') in 0.007498 seconds
+  Import took 0.009546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color03.prefab
+  artifactKey: Guid(cf79132255343134a92650eeb71f8f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color03.prefab using Guid(cf79132255343134a92650eeb71f8f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7781096d039965d5a87b02adcc42e3b7') in 0.006891 seconds
+  Import took 0.008805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color03.prefab
+  artifactKey: Guid(317244528cf670f4cab5341485a6f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color03.prefab using Guid(317244528cf670f4cab5341485a6f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6dce2514952d3500c7d96907b4b677') in 0.006845 seconds
+  Import took 0.008794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color03.prefab
+  artifactKey: Guid(7eb8a207b13d6814b82864d8d6480622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color03.prefab using Guid(7eb8a207b13d6814b82864d8d6480622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4438cf815035f6e3509b96fce1477fea') in 0.007839 seconds
+  Import took 0.009744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color02.prefab
+  artifactKey: Guid(72665dd31c5988f4b96f983c5a512da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Color02.prefab using Guid(72665dd31c5988f4b96f983c5a512da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8cd8dab48758cdc0fec145cfc6ef70') in 0.006797 seconds
+  Import took 0.008742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color01.prefab
+  artifactKey: Guid(4a8331f3a571b524b85debb61d9aaf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Color01.prefab using Guid(4a8331f3a571b524b85debb61d9aaf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e885f751d2516ae0e0b54e1a7557a52') in 0.007855 seconds
+  Import took 0.010098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color02.prefab
+  artifactKey: Guid(5de80b5db7e4338448e68f20165e0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color02.prefab using Guid(5de80b5db7e4338448e68f20165e0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc99f7c978dfad8492cce60801ec221') in 0.007798 seconds
+  Import took 0.010109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color03.prefab
+  artifactKey: Guid(268ad7433f180124bb421c9fe2e9c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color03.prefab using Guid(268ad7433f180124bb421c9fe2e9c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4e7baa6bf2b6555fe8d80ffb976b8') in 0.009891 seconds
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color02.prefab
+  artifactKey: Guid(2e2d3a583c4a5b545abd5633bc34bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color02.prefab using Guid(2e2d3a583c4a5b545abd5633bc34bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f994a40a9829e78e86cc9f06232abf79') in 0.007367 seconds
+  Import took 0.009494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color01.prefab
+  artifactKey: Guid(41bac34c33aa35f428bef5c0e8f696a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer_Color01.prefab using Guid(41bac34c33aa35f428bef5c0e8f696a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713d606a876342353183fcc58422ab0b') in 0.007522 seconds
+  Import took 0.009767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color01.prefab
+  artifactKey: Guid(bd918bb764d848241aad7c904b8619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Farm/Vehicle/SPW_Vehicle_Land_Static_Tractor_Trailer_Color01.prefab using Guid(bd918bb764d848241aad7c904b8619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfdb0cdc1e1f31cebdd5c7a91a9482d') in 0.006525 seconds
+  Import took 0.008704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.810630 seconds.
+  path: Assets/SimplePoly World/Demo Scenes/SPW_Demo Scene_Farm.unity
+  artifactKey: Guid(80f49d6784942a34a8f72e4448a21321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Demo Scenes/SPW_Demo Scene_Farm.unity using Guid(80f49d6784942a34a8f72e4448a21321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0334a13f7efcddcf09a9e8d68298094') in 0.001873 seconds
+  Import took 0.004166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 857.365171 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Flat.fbx
+  artifactKey: Guid(fa774fbe16031f2439100ce30a1aa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Flat.fbx using Guid(fa774fbe16031f2439100ce30a1aa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304032ab28c4ba2e0dc9033d8488b135') in 0.088726 seconds
+  Import took 0.091096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_mid.fbx
+  artifactKey: Guid(d125db1ca6562a646b5d59a22af0841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_mid.fbx using Guid(d125db1ca6562a646b5d59a22af0841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e75cee30a6e3e95e98080cfbac563') in 0.007777 seconds
+  Import took 0.009569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_Corner.prefab
+  artifactKey: Guid(7a3011efb144a67438536ddf0d1a8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_Corner.prefab using Guid(7a3011efb144a67438536ddf0d1a8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759b6e13e6af00e6ddde351f3fb01af') in 0.006539 seconds
+  Import took 0.008405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_Corner.fbx
+  artifactKey: Guid(c5bf76505e2932d45bc4f36d503db686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_Corner.fbx using Guid(c5bf76505e2932d45bc4f36d503db686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d0e6ab2b72cb10e5b9432a69c021b0') in 0.008427 seconds
+  Import took 0.010362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_In_Corner.prefab
+  artifactKey: Guid(acb40bb7e5d375d47a8e376b745cb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_In_Corner.prefab using Guid(acb40bb7e5d375d47a8e376b745cb167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83997e86600a1bcdf0c1291acf33892e') in 0.006764 seconds
+  Import took 0.008707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_mid.prefab
+  artifactKey: Guid(78f4a2535a97cca478fb8474a83d567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_mid.prefab using Guid(78f4a2535a97cca478fb8474a83d567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b0876c7c27dd19c95473b1fe03856') in 0.006600 seconds
+  Import took 0.008425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_mid.prefab
+  artifactKey: Guid(42030b7e9de4e5b4680d4baba2319a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_mid.prefab using Guid(42030b7e9de4e5b4680d4baba2319a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd4b7f6cc5d8eea722da756fe161429') in 0.007459 seconds
+  Import took 0.009472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Flat.prefab
+  artifactKey: Guid(a72647e7589f7cd4791c275cbafb8c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Flat.prefab using Guid(a72647e7589f7cd4791c275cbafb8c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b280061a5610c7ca186439bcf9d9f62') in 0.006787 seconds
+  Import took 0.009425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_Corner.prefab
+  artifactKey: Guid(d8d4fbe8a266b064f8d3bf611fe442f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_Corner.prefab using Guid(d8d4fbe8a266b064f8d3bf611fe442f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560ef3f0cfadca92585415a8a6fe37d') in 0.006081 seconds
+  Import took 0.008133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_In_Corner.fbx
+  artifactKey: Guid(eb550423502051d49a9f0cf8e83ce2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_In_Corner.fbx using Guid(eb550423502051d49a9f0cf8e83ce2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dccf0556306ef6753cdb85d2d3296c2') in 0.008379 seconds
+  Import took 0.010260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_mid.fbx
+  artifactKey: Guid(795a7e8d3090c134eba699166df4dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_Out_mid.fbx using Guid(795a7e8d3090c134eba699166df4dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b4687b5d0b74b9722512c269fef6f2') in 0.008569 seconds
+  Import took 0.010476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_Corner.fbx
+  artifactKey: Guid(c4a81122cf0ba6349b2218f4884a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan B_Out_Corner.fbx using Guid(c4a81122cf0ba6349b2218f4884a4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a023335990a82061a85099dc000d6501') in 0.007448 seconds
+  Import took 0.009238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimplePoly World/Models/Urban/Others/SPW_Demo Scene_Farm.fbx
+  artifactKey: Guid(04de451c167369e4980d42bc7a9599ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Urban/Others/SPW_Demo Scene_Farm.fbx using Guid(04de451c167369e4980d42bc7a9599ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f18a05943b1c6eb866d5f47ebdf2d63') in 1.911631 seconds
+  Import took 1.917711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_In_Corner.fbx
+  artifactKey: Guid(b71dba196c7fe35439d6916eb0a1e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Models/Natures/Terrain/SPW_Terrain_Grass_Plan A_In_Corner.fbx using Guid(b71dba196c7fe35439d6916eb0a1e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1862c9177c425235a6b4e16d1370fe12') in 0.009544 seconds
+  Import took 0.011430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_In_Corner.prefab
+  artifactKey: Guid(6d4e6f6619fc2f14584c23786bf06430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Prefab/Natures/Terrain/SPW_Terrain_Grass_Plan B_In_Corner.prefab using Guid(6d4e6f6619fc2f14584c23786bf06430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ed6f03b71117ba75cfb706113073a8') in 0.006004 seconds
+  Import took 0.008012 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
