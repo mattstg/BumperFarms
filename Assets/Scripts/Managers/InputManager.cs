@@ -21,11 +21,12 @@ public class InputManager
         }
     }
     #endregion
-
+    Rewired.InputManager rewiredInputManager;
     Dictionary<int, InputPkg> playerInput;
 
     public void Initialize(int numOfPlayers)
     {
+        rewiredInputManager = GameObject.FindObjectOfType<Rewired.InputManager>();
         playerInput = new Dictionary<int, InputPkg>();
         for(int i =0; i < numOfPlayers; i++)
         {
@@ -57,14 +58,23 @@ public class InputManager
     public class InputPkg
     {
         int pid;
+        Rewired.Player rplayer;
+
+        public Vector2 dirPressed;
+        public bool pickupDropPressed;
+        public bool usePressed;
 
         public InputPkg(int _pid)
         {
             pid = _pid;
+            rplayer  = Rewired.ReInput.players.GetPlayer(pid);
         }
+
         public void UpdateInput()
         {
-
+            dirPressed = new Vector2(rplayer.GetAxis("Horz"), rplayer.GetAxis("Vert"));
+            pickupDropPressed = rplayer.GetButtonDown("PickupDrop");
+            usePressed = rplayer.GetButton("UseItem");
         }
     }
 }

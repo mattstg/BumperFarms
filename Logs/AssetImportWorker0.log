@@ -881,3 +881,112 @@ Received Import Request.
 Start importing Assets/Scripts/Managers/PersistantData.cs using Guid(ee10a4fd9fffc844facb37cc218800c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5b8e74ad6dedd5d02b8f9da11951aa') in 0.004307 seconds
   Import took 0.006498 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 179.249123 seconds.
+  path: Assets/Scripts/Managers/InputManager.cs
+  artifactKey: Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/InputManager.cs using Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4af37c29cbceea69314edd6d1cb76df') in 0.002471 seconds
+  Import took 0.004556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Scripts/Managers/InputManager.cs
+  artifactKey: Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/InputManager.cs using Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4af37c29cbceea69314edd6d1cb76df') in 0.002269 seconds
+  Import took 0.004374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.466900 ms (FindLiveObjects: 0.126900 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.288000 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 1.407400 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.225200 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 528.952416 seconds.
+  path: Assets/Scripts/Managers/InputManager.cs
+  artifactKey: Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/InputManager.cs using Guid(e6d8dd4945d5e6b429d18d5b2c9f83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe325a29457f12c6910157ec5adcd235') in 0.006834 seconds
+  Import took 0.010465 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 2.096300 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.813100 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 835.576975 seconds.
+  path: Assets/Rewired/Integration/UnityUI/RewiredEventSystem.prefab
+  artifactKey: Guid(14ee31e976b2b344fb160d8a2deffe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rewired/Integration/UnityUI/RewiredEventSystem.prefab using Guid(14ee31e976b2b344fb160d8a2deffe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5ec0372ae921a0f758bb527a78995e') in 0.028531 seconds
+  Import took 0.031069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.656608 seconds.
+  path: Assets/Rewired
+  artifactKey: Guid(d402754ac6bb04c439bc0655620ed0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rewired using Guid(d402754ac6bb04c439bc0655620ed0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857286442ab7dba4897257bddd7e72db') in 0.002154 seconds
+  Import took 0.004182 seconds .
+
