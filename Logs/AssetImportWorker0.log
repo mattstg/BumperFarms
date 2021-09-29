@@ -990,3 +990,305 @@ Received Import Request.
 Start importing Assets/Rewired using Guid(d402754ac6bb04c439bc0655620ed0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857286442ab7dba4897257bddd7e72db') in 0.002154 seconds
   Import took 0.004182 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1909.702815 seconds.
+  path: Assets/Resources/Prefabs/Player/Player.prefab
+  artifactKey: Guid(c4cf71bce5ee9ad41990cbcec8ee9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Player/Player.prefab using Guid(c4cf71bce5ee9ad41990cbcec8ee9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a5e6c50f0eea0047accf3be5a505ce') in 0.004334 seconds
+  Import took 0.006985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 2.689900 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.347200 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.992359 seconds.
+  path: Assets/Resources/Textures
+  artifactKey: Guid(5f16289e11e353d4d8c3b260058d9895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures using Guid(5f16289e11e353d4d8c3b260058d9895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ba3adbed41e5068bea2a255786e31') in 0.004661 seconds
+  Import took 0.013927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.659996 seconds.
+  path: Assets/Resources/Textures/BasicColors
+  artifactKey: Guid(96fb8a938ed00b544939f3b8153d8da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/BasicColors using Guid(96fb8a938ed00b544939f3b8153d8da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebc240b57956ee595e324dcadee20f9') in 0.001947 seconds
+  Import took 0.004240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.038470 seconds.
+  path: Assets/Resources/Materials
+  artifactKey: Guid(ffc7293658a399f4aa2431c2b93c0b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials using Guid(ffc7293658a399f4aa2431c2b93c0b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb169fa9824061ccdf53d070c0389137') in 0.002293 seconds
+  Import took 0.004811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.824366 seconds.
+  path: Assets/Resources/Materials/BasicColors
+  artifactKey: Guid(d36642fafa89a7c4bb4659be201b42d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BasicColors using Guid(d36642fafa89a7c4bb4659be201b42d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222dabd35759c56839b2235a8e45c8e0') in 0.001736 seconds
+  Import took 0.003778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.654885 seconds.
+  path: Assets/Cinemachine/Base/Editor/Resources/Cinemachine_header.tif
+  artifactKey: Guid(372fe04232d5ed94d8d71524616c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cinemachine/Base/Editor/Resources/Cinemachine_header.tif using Guid(372fe04232d5ed94d8d71524616c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236e71ea14f8d9bfe823a6aed06adb5e') in 0.052030 seconds
+  Import took 0.054165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Farm.png
+  artifactKey: Guid(e877bad34c9f65646ba479e4a58d5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Farm.png using Guid(e877bad34c9f65646ba479e4a58d5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c406818f449b5df6da90c5006404f') in 0.040703 seconds
+  Import took 0.042890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimplePoly World/Textures/Natures/SPW_Natures_02.png
+  artifactKey: Guid(0e0a6eb2fae2b904992a7e42bcf5e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Natures/SPW_Natures_02.png using Guid(0e0a6eb2fae2b904992a7e42bcf5e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f7e581153bfa0f2382de07d57f8fa5') in 0.006976 seconds
+  Import took 0.009843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color03.png
+  artifactKey: Guid(40a14e6490af1dd48abef85543fdd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color03.png using Guid(40a14e6490af1dd48abef85543fdd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1efdd5fabb6f2f4223d904ca412b0e4') in 0.009236 seconds
+  Import took 0.011382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SimplePoly World/Textures/Natures/SPW_Natures_01.png
+  artifactKey: Guid(62eb75946f2c4334fafe6dbb01244d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Natures/SPW_Natures_01.png using Guid(62eb75946f2c4334fafe6dbb01244d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9714470143acea99f8e390378266cb06') in 0.007143 seconds
+  Import took 0.009117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Farm_Crop.png
+  artifactKey: Guid(56aa50f37c66a5b479ef5508c41b75bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Farm_Crop.png using Guid(56aa50f37c66a5b479ef5508c41b75bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96a3c03096598a4e8f6ce340726a66a') in 0.006615 seconds
+  Import took 0.008705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Gizmos/Cinemachine/cm_logo_lg.png
+  artifactKey: Guid(a670d7dded4e6b94f9286da7389fab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/Cinemachine/cm_logo_lg.png using Guid(a670d7dded4e6b94f9286da7389fab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4112327cb252721ed54eb44a0ba4a1') in 0.007578 seconds
+  Import took 0.010767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Cinemachine/Gizmos/Cinemachine/cm_logo_lg.png
+  artifactKey: Guid(ca058052cfb44474dbd1f8ec45658065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cinemachine/Gizmos/Cinemachine/cm_logo_lg.png using Guid(ca058052cfb44474dbd1f8ec45658065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50b0bf556d9f86460843af177729207') in 0.007326 seconds
+  Import took 0.009333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color01.png
+  artifactKey: Guid(62709f73f61124d408212796667b72e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color01.png using Guid(62709f73f61124d408212796667b72e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3ed55eb3d7aa6bb5ac5efc281dbc61') in 0.009951 seconds
+  Import took 0.011831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color03.png
+  artifactKey: Guid(e02955e0076ccaa4c873b648180fd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color03.png using Guid(e02955e0076ccaa4c873b648180fd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412f7d6e8aea83fbab1a76592f460f5') in 0.007657 seconds
+  Import took 0.009830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color02.png
+  artifactKey: Guid(1b7e37b6f8354324fb998115dc275f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color02.png using Guid(1b7e37b6f8354324fb998115dc275f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0556ad234977c890dfd4a36911c459f') in 0.007485 seconds
+  Import took 0.009488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cinemachine/PostFX/Editor/Resources/PostProcessLayer.png
+  artifactKey: Guid(1fa3cd9f91afee64e96c128a82544bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cinemachine/PostFX/Editor/Resources/PostProcessLayer.png using Guid(1fa3cd9f91afee64e96c128a82544bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192b65efa586e4a598c3bec9d85b01d') in 0.008044 seconds
+  Import took 0.009908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color01.png
+  artifactKey: Guid(5f951cdf744ecd042bbae4cdcbdc62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Color01.png using Guid(5f951cdf744ecd042bbae4cdcbdc62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d830bf51d2e8ebb4c6d34a119a0a312') in 0.006309 seconds
+  Import took 0.008145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color03.png
+  artifactKey: Guid(c302684ecdba1d8448dd1256c43435dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color03.png using Guid(c302684ecdba1d8448dd1256c43435dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ac44e1191125629a04601e5ed627a0') in 0.007047 seconds
+  Import took 0.008934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color01.png
+  artifactKey: Guid(485983cb6eedd9e4781562303a60842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color01.png using Guid(485983cb6eedd9e4781562303a60842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05084c8777d3335cfcbfcfe345efc1a') in 0.010358 seconds
+  Import took 0.012289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color02.png
+  artifactKey: Guid(150dad3790a788f41a8282a60b0c08f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Vehicle_Land_Tractor_Trailer_Color02.png using Guid(150dad3790a788f41a8282a60b0c08f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667dc8d42389db6911ba8436538345bc') in 0.006845 seconds
+  Import took 0.008871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color02.png
+  artifactKey: Guid(2125ca22f10a65344a07ce6408c71647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly World/Textures/Farm/SPW_Farm_Bldg_Color02.png using Guid(2125ca22f10a65344a07ce6408c71647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b55c24a61d8f2eb779f3894b5064ec') in 0.008018 seconds
+  Import took 0.010142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Cinemachine/Base/Editor/Resources/cm_logo_sm.png
+  artifactKey: Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cinemachine/Base/Editor/Resources/cm_logo_sm.png using Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d1a2c6cc4dd3d7a570d7822a743f35') in 0.009078 seconds
+  Import took 0.011370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Textures/BasicColors/White.png
+  artifactKey: Guid(17209d1ba7ad61040bbe229db5a678bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/BasicColors/White.png using Guid(17209d1ba7ad61040bbe229db5a678bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5187acfff31fc506edd9a3341797ad6b') in 0.006557 seconds
+  Import took 0.008528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.529396 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(65568b8977e797b4195b047797b55c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(65568b8977e797b4195b047797b55c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb15f632b80e6bb010dbac946a0515') in 0.003057 seconds
+  Import took 0.005953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.999858 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deb6ae97f20732661009d651e00416e') in 0.001888 seconds
+  Import took 0.004017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deb6ae97f20732661009d651e00416e') in 0.002213 seconds
+  Import took 0.004953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 1.374800 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.203700 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 2.704500 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.367900 ms  DeleteObjects: 0.032100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.573070 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(ba2c8fa92d9f1db47875af9064f266d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32638ab388d3b0164cebab6b1f0ba5f8') in 0.004838 seconds
+  Import took 0.016207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.848107 seconds.
+  path: Assets/Resources/Prefabs/Player/Player.prefab
+  artifactKey: Guid(c4cf71bce5ee9ad41990cbcec8ee9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Player/Player.prefab using Guid(c4cf71bce5ee9ad41990cbcec8ee9fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20346d7fdf6d5527b2542f34c77dbab7') in 0.053778 seconds
+  Import took 0.056345 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
