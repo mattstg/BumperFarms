@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4542248814811397838}
   - component: {fileID: 7727605836844638929}
   - component: {fileID: 1214241087925233357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,6 +81,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3504832305817767913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4086079276273708907}
+  m_Layer: 6
+  m_Name: carryCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4086079276273708907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504832305817767913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45, z: 1.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9203152295244780232}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3887481672175152808
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +122,7 @@ GameObject:
   - component: {fileID: 6706846752813523570}
   - component: {fileID: 8462059496189641836}
   - component: {fileID: 7189133243110960544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +204,11 @@ GameObject:
   - component: {fileID: 813639947239812052}
   - component: {fileID: 2526238007287046051}
   - component: {fileID: 3561451452391945099}
-  m_Layer: 0
+  - component: {fileID: 4840085615716224088}
+  - component: {fileID: 7676064355951314265}
+  - component: {fileID: 2393101250249344026}
+  - component: {fileID: 5965866515663520762}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -197,6 +231,7 @@ Transform:
   - {fileID: 1725910488758376958}
   - {fileID: 5586286443316700511}
   - {fileID: 6706846752813523570}
+  - {fileID: 4086079276273708907}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -212,8 +247,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2c8fa92d9f1db47875af9064f266d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pid: 0
   leftHand: {fileID: 5586286443316700511}
   rightHand: {fileID: 6706846752813523570}
+  playerGrabCenter: {fileID: 4086079276273708907}
+  playerColi: {fileID: 2526238007287046051}
 --- !u!136 &2526238007287046051
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -244,6 +282,111 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &4840085615716224088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930736627534951031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d8dd4945d5e6b429d18d5b2c9f83ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pid: 0
+  moveDirUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  FU_moveDirUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2393101250249344026}
+        m_TargetAssemblyTypeName: Moveable, Assembly-CSharp
+        m_MethodName: MoveInDirection
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pickupPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7676064355951314265}
+        m_TargetAssemblyTypeName: PickupableCarrier, Assembly-CSharp
+        m_MethodName: PickupDropPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  useItemPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5965866515663520762}
+        m_TargetAssemblyTypeName: ItemUser, Assembly-CSharp
+        m_MethodName: UseItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7676064355951314265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930736627534951031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8936b7090bcf94f9fc6fa0c449ac18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carryingPosition: {fileID: 4086079276273708907}
+  grabSizeExtent: {x: 0.5, y: 0.5}
+  acceptablePickupLayers:
+    serializedVersion: 2
+    m_Bits: 384
+  throwForce: 5
+--- !u!114 &2393101250249344026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930736627534951031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378d38241b73a2b459a6ff81cdd9b1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 5
+  maxSpeed: 5
+--- !u!114 &5965866515663520762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930736627534951031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c5e2bc9b55db342abbf9b0a699ac62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6020671441223826868
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +398,7 @@ GameObject:
   - component: {fileID: 4294852047276852179}
   - component: {fileID: 3368149932353325946}
   - component: {fileID: 4924295593344178882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +479,7 @@ GameObject:
   - component: {fileID: 620829097140547402}
   - component: {fileID: 899038116649252295}
   - component: {fileID: 4293115015078199003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +560,7 @@ GameObject:
   - component: {fileID: 1725910488758376958}
   - component: {fileID: 8716759508618822980}
   - component: {fileID: 9012083150153625621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +645,7 @@ GameObject:
   - component: {fileID: 2165769726073538737}
   - component: {fileID: 8056132281625054689}
   - component: {fileID: 1248491776963585843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +726,7 @@ GameObject:
   - component: {fileID: 8638414903074334249}
   - component: {fileID: 5538861966338994220}
   - component: {fileID: 4797075411512674878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HatBrim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +807,7 @@ GameObject:
   - component: {fileID: 233872123650181891}
   - component: {fileID: 4509708115022581705}
   - component: {fileID: 7520853489163120509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +888,7 @@ GameObject:
   - component: {fileID: 5586286443316700511}
   - component: {fileID: 2219252480914724482}
   - component: {fileID: 8206921421789234931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

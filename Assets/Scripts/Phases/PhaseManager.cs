@@ -6,11 +6,17 @@ using UnityEngine;
 //So not a normal manager
 public class PhaseManager
 {
+    
     Dictionary<System.Type, IPhase> phaseDict;
     System.Type currentPhase;
 
+
+
+
     public PhaseManager()
     {
+        currentPhase = typeof(GamePhase);
+
         phaseDict = new Dictionary<System.Type, IPhase>();
         phaseDict.Add(typeof(ContractPhase), new ContractPhase());
         phaseDict.Add(typeof(GamePhase), new GamePhase());
