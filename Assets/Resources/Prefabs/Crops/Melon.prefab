@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 5863264895962114694}
   - component: {fileID: 5621156811679956209}
   - component: {fileID: 3389637858005103633}
-  - component: {fileID: 975244614754038226}
-  m_Layer: 0
+  - component: {fileID: 644732486}
+  - component: {fileID: 893530360612240293}
+  m_Layer: 8
   m_Name: Melon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &975244614754038226
+--- !u!114 &644732486
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,6 +123,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5090857494057650973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08336547d7881074fbe4dbca687670a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 203e339763dc6c946b90c4cea88f953b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &893530360612240293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090857494057650973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5a0a00d78a6d741ae128a304ad6121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  produceType: 0

@@ -20,20 +20,23 @@ public class MainScript : MonoBehaviour
             Debug.LogError("Somehow Awake for mainscript called twice, did you reload scene?");
 
         Instance = this;
+
+        ignoreColiHelper = new IgnoreColiHelper();
+        phaseManager = new PhaseManager();
+
+        InitializeGlobalManagers();
     }
 
     void Start()
     {
-        
-        phaseManager = new PhaseManager();
         phaseManager.StartApp();
-
     }
 
     // Update is called once per frame
     void Update()
     {
         phaseManager.UpdateGame();
+        UpdateGlobalManagers();
     }
 
     private void FixedUpdate()
